@@ -1,0 +1,33 @@
+.search {
+  width: 70%;
+  height: 50px;
+  min-height: 50px;
+  margin-bottom: 2rem;
+  display: flex;
+
+  input {
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 89%;
+    height: 100%;
+    vertical-align: middle;
+   }
+
+  button {
+    background: white;
+    padding: 10px;
+    height: 52px;
+    border: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+    &:nth-child(3) {
+      border-radius: 0 15px 15px 0;
+    }
+    &:hover {
+      background: #8db3ec;
+    }
+  }
+}
+
